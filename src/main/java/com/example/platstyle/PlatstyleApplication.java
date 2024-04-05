@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class PlatstyleApplication {
 
-    @RequestMapping("/")
+    @RequestMapping("/home")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello World!haha";
     }
 
     public static void main(String[] args) {
